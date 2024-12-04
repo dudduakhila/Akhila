@@ -1,0 +1,21 @@
+package com.CH22_SpringTest;
+
+public class Employee {
+	private int id;
+	private String name;
+	private String dept;
+	private int sal;
+	public Employee(int id, String name, String dept, int sal) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.dept = dept;
+		this.sal = sal;
+	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", dept=" + dept + ", sal=" + sal + "]";
+	}
+	
+
+}
