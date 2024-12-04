@@ -1,0 +1,22 @@
+ackage akhila.ch22;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class congfig2 
+{
+	@Bean
+	public Game g1()
+	{
+		Game g=new Game();
+		g.setName("cricket");
+		g.setPlayers(11);
+		g.setStadium_name("LB stadium");
+		g.setStadium_st("2l");
+		return g;
+		
+		
+	}
+	
+}
