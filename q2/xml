@@ -12,7 +12,7 @@ http://www.springframework.org/schema/tx
 http://www.springframework.org/schema/tx/spring-tx.xsd">
 <bean id="emp1" class="com.CH22_SpringTest.Employee">
 	<constructor-arg name="id" value="1"></constructor-arg>
-	<constructor-arg name="name" value="Sudheer"></constructor-arg>
+	<constructor-arg name="name" value="akhila"></constructor-arg>
 	<constructor-arg name="dept" value="Development"></constructor-arg>
 	<constructor-arg name="sal" value="0"></constructor-arg>
 </bean>
